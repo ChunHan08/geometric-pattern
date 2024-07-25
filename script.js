@@ -7,15 +7,15 @@ var gVal;
 var bVal;
 
 function setup() {
-  createCanvas(480, 600)
+  createCanvas(500, 500)
   circleDiameter = width / NUM_CIRCLES;
   circleRadius = circleDiameter / 2;
 }
 function draw() {
   var isShifted = false;
   rVal = 255;
-  gVal = 0;
-  bVal = 0;
+  gVal = 100;
+  bVal = 4;
 
   var y = height;
   while (y >= 0) {
